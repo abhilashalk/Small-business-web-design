@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+
+
+    <title>Daily Fitness Contact</title>
+</head>
+
+<body id="home">
+    <ul id="dropdown1" class="dropdown-content">
+        <li>
+            <a href="#montly">Monthly</a>
+        </li>
+        <li>
+            <a href="#yearly">Yearly</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#premium">Premium</a>
+        </li>
+    </ul>
+
+
+    <!-- navbar-begins -->
+    <nav class="indigo darken-2">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo">Daily Fitness</a>
+                <a href="#menu" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#Programs">Explore</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#membership" data-target="dropdown1">Membership
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="index.html">About</a>
+        </li>
+        <li>
+            <a href="#Programs">Explore</a>
+        </li>
+        <li>
+            <a href="#membership">Membership</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Us</a>
+        </li>
+    </ul>
+
+    <!--input form starts-->
+    <section class="form">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea" data-length="300"></textarea>
+                        <label for="icon_prefix2">message</label>
+                    </div>
+                    <a href="#event"></a>
+                    <input type="submit" value="Submit" class="btn">
+            </form>
+            </div>
+    </section>
+
+
+
+
+    <footer class="indigo darken-2 page-footer">
+        <div class="container">
+            <div class="row-1">
+                <div class="col sm 6">
+                    <h5 class="white-text">Stay Connected</h5>
+                </div>
+                <div class="col sm 6">
+                    <img class="fcbook" src="assets/images/facebook-logo.jpg" alt="facebook logo" style="width:30px;height:30px;">
+                    <img class="twitter" src="assets/images/Twitter.png" alt="twitter logo" style="width:30px;height:30px;">
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="col sm 6">
+                    <h5 class="white-text">Resources</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Careers</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Member Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2018 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+</body>
+
+</html>
